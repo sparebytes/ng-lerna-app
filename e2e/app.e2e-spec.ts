@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('ng-lerna App', () => {
+describe('xapp App', () => {
   let page: AppPage;
 
   beforeEach(() => {

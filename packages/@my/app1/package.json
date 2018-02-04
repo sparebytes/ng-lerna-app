@@ -1,0 +1,9 @@
+{
+  "name": "@my/app",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@my/app": "0.0.0"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "extends": "../../../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/a-widget",
+    "module": "es2015"
+  }
+}

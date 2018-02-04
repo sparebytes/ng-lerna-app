@@ -1,5 +1,5 @@
 {
-  "name": "ng-lerna",
+  "name": "@my/ng-lerna-app",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -11,6 +11,10 @@
     "e2e": "ng e2e"
   },
   "private": true,
+  "workspaces": [
+    "packages/*/*",
+    "packages/*"
+  ],
   "dependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
@@ -40,6 +44,7 @@
     "karma-coverage-istanbul-reporter": "^1.2.1",
     "karma-jasmine": "~1.1.0",
     "karma-jasmine-html-reporter": "^0.2.2",
+    "lerna": "^2.8.0",
     "protractor": "~5.1.2",
     "ts-node": "~4.1.0",
     "tslint": "~5.9.1",
